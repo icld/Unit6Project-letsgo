@@ -27,8 +27,6 @@ router.get('/projects/:id', (req, res) => {
         console.error('Something is wrong')
         res.redirect('/projects/1')
     }
-
-
 });
 
 
