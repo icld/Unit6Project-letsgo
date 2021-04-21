@@ -2,8 +2,8 @@
     "projects": [
         {
             "id": 1,
-            "project_name": "Project 1",
-            "description": "a project 1",
+            "project_name": "A Random Quote Generator",
+            "description": "",
             "technologies": [
                 "JavaScript",
                 "HTML",
@@ -13,28 +13,26 @@
             "github_link": "https://github.com/icld/Project1-Random-Quote-Generator.git",
             "image_urls": [
                 {
-                    "src": "https://picsum.photos/1200/500",
-                    "alt": "a photo 1"
+                    "src": "/static/images/proj1/p1_img2.png",
+                    "alt": "photo of a webpage"
                 },
                 {
-                    "src": "https://picsum.photos/1200/500",
-                    "alt": "a photo 2 "
+                    "src": "/static/images/proj1/p1_img3.png",
+                    "alt": "photo of a webpage"
                 },
                 {
-                    "src": "https://picsum.photos/1200/500",
-                    "alt": "a photo 3"
+                    "src": "/static/images/proj1/p1_img4.png",
+                    "alt": "photo of a webpage"
                 }
             ],
-            "main_image": [
-                {
-                    "src": "https://picsum.photos/1200/500",
-                    "alt": "a photo 3"
-                }
-            ]
+            "main_image": {
+                "src": "/static/images/proj1/p1_img5.png",
+                "alt": "photo of a webpage"
+            }
         },
         {
             "id": 2,
-            "project_name": "Project 2",
+            "project_name": "Data Pagination And Filtering",
             "description": "a project 2",
             "technologies": [
                 "JavaScript",
@@ -45,28 +43,34 @@
             "github_link": "https://github.com/icld/Project-2-Data-Pagination-and-Filtering.git",
             "image_urls": [
                 {
-                    "src": "https://picsum.photos/1200/500",
+                    "src": "/static/images/proj2/p2_img1.png",
                     "alt": "a photo 1"
                 },
                 {
-                    "src": "https://picsum.photos/1200/500",
+                    "src": "/static/images/proj2/p2_img2.png",
                     "alt": "a photo 2 "
                 },
                 {
-                    "src": "https://picsum.photos/1200/500",
+                    "src": "/static/images/proj2/p2_img3.png",
+                    "alt": "a photo 3"
+                },
+                {
+                    "src": "/static/images/proj2/p2_img4.png",
+                    "alt": "a photo 3"
+                },
+                {
+                    "src": "/static/images/proj2/p2_img5.png",
                     "alt": "a photo 3"
                 }
             ],
-            "main_image": [
-                {
-                    "src": "https://picsum.photos/1200/500",
-                    "alt": "a photo 3"
-                }
-            ]
+            "main_image": {
+                "src": "/static/images/proj2/p2_img1.png",
+                "alt": "a photo 3"
+            }
         },
         {
             "id": 3,
-            "project_name": "Project 3",
+            "project_name": "Interactive Form",
             "description": "a project 3",
             "technologies": [
                 "JavaScript",
@@ -77,28 +81,26 @@
             "github_link": "https://github.com/icld/Project-3-Interactive-Form.git",
             "image_urls": [
                 {
-                    "src": "https://picsum.photos/1200/500",
+                    "src": "/static/images/proj3/p3_img1.png",
                     "alt": "a photo 1"
                 },
                 {
-                    "src": "https://picsum.photos/1200/500",
+                    "src": "/static/images/proj3/p3_img2.png",
                     "alt": "a photo 2 "
                 },
                 {
-                    "src": "https://picsum.photos/1200/500",
+                    "src": "/static/images/proj3/p3_img3.png",
                     "alt": "a photo 3"
                 }
             ],
-            "main_image": [
-                {
-                    "src": "https://picsum.photos/1200/500",
-                    "alt": "a photo 3"
-                }
-            ]
+            "main_image": {
+                "src": "/static/images/proj3/p3_img10.png",
+                "alt": "a photo 3"
+            }
         },
         {
             "id": 4,
-            "project_name": "Project 4",
+            "project_name": "Phrase Hunter Game",
             "description": "a project 4",
             "technologies": [
                 "JavaScript",
@@ -109,29 +111,27 @@
             "github_link": "https://github.com/icld/unit4-project-oop-game.git",
             "image_urls": [
                 {
-                    "src": "https://picsum.photos/1200/500",
+                    "src": "/static/images/proj4/p4_img1.png",
                     "alt": "a photo 1"
                 },
                 {
-                    "src": "https://picsum.photos/1200/500",
+                    "src": "/static/images/proj4/p4_img2.png",
                     "alt": "a photo 2 "
                 },
                 {
-                    "src": "https://picsum.photos/1200/500",
+                    "src": "/static/images/proj4/p4_img3.png",
                     "alt": "a photo 3"
                 }
             ],
-            "main_image": [
-                {
-                    "src": "https://picsum.photos/1200/500",
-                    "alt": "a photo 3"
-                }
-            ]
+            "main_image": {
+                "src": "/static/images/proj4/p4_img2.png",
+                "alt": "a photo 3"
+            }
         },
         {
             "id": 5,
-            "project_name": "Project 5",
-            "description": "a project 5",
+            "project_name": "Startup Employee Directory",
+            "description": "Public API Requests",
             "technologies": [
                 "JavaScript",
                 "HTML",
@@ -141,24 +141,30 @@
             "github_link": "https://github.com/icld/publicAPIRequests.git",
             "image_urls": [
                 {
-                    "src": "https://picsum.photos/1200/500",
+                    "src": "/static/images/proj5/p5_img1.png",
                     "alt": "a photo 1"
                 },
                 {
-                    "src": "https://picsum.photos/1200/500",
+                    "src": "/static/images/proj5/p5_img2.png",
                     "alt": "a photo 2 "
                 },
                 {
-                    "src": "https://picsum.photos/1200/500",
+                    "src": "/static/images/proj5/p5_img3.png",
+                    "alt": "a photo 3"
+                },
+                {
+                    "src": "/static/images/proj5/p5_img4.png",
+                    "alt": "a photo 3"
+                },
+                {
+                    "src": "/static/images/proj5/p5_img5.png",
                     "alt": "a photo 3"
                 }
             ],
-            "main_image": [
-                {
-                    "src": "https://picsum.photos/1200/500",
-                    "alt": "a photo 3"
-                }
-            ]
+            "main_image": {
+                "src": "/static/images/proj5/p5_img1.png",
+                "alt": "a photo 3"
+            }
         }
     ]
 }
