@@ -23,10 +23,18 @@
                 {
                     "src": "/static/images/proj1/p1_img4.png",
                     "alt": "photo of a webpage"
+                },
+                {
+                    "src": "/static/images/proj1/p1_img5.png",
+                    "alt": "photo of a webpage"
+                },
+                {
+                    "src": "/static/images/proj1/p1_img6.png",
+                    "alt": "photo of a webpage"
                 }
             ],
             "main_image": {
-                "src": "/static/images/proj1/p1_img5.png",
+                "src": "/static/images/proj1/p1_img1.png",
                 "alt": "photo of a webpage"
             }
         },
