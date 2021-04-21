@@ -9,7 +9,7 @@
                 "HTML",
                 "CSS"
             ],
-            "live_link": "https://picsum.photos/",
+            "live_link": "https://icld.github.io/Project1-Random-Quote-Generator/",
             "github_link": "https://github.com/icld/Project1-Random-Quote-Generator.git",
             "image_urls": [
                 {
@@ -20,6 +20,12 @@
                     "src": "https://picsum.photos/1200/500",
                     "alt": "a photo 2 "
                 },
+                {
+                    "src": "https://picsum.photos/1200/500",
+                    "alt": "a photo 3"
+                }
+            ],
+            "main_image": [
                 {
                     "src": "https://picsum.photos/1200/500",
                     "alt": "a photo 3"
@@ -35,7 +41,7 @@
                 "HTML",
                 "CSS"
             ],
-            "live_link": "https://picsum.photos/",
+            "live_link": "https://icld.github.io/Project-2-Data-Pagination-and-Filtering/",
             "github_link": "https://github.com/icld/Project-2-Data-Pagination-and-Filtering.git",
             "image_urls": [
                 {
@@ -46,6 +52,12 @@
                     "src": "https://picsum.photos/1200/500",
                     "alt": "a photo 2 "
                 },
+                {
+                    "src": "https://picsum.photos/1200/500",
+                    "alt": "a photo 3"
+                }
+            ],
+            "main_image": [
                 {
                     "src": "https://picsum.photos/1200/500",
                     "alt": "a photo 3"
@@ -61,7 +73,7 @@
                 "HTML",
                 "CSS"
             ],
-            "live_link": "https://picsum.photos/",
+            "live_link": "https://icld.github.io/Project-3-Interactive-Form/",
             "github_link": "https://github.com/icld/Project-3-Interactive-Form.git",
             "image_urls": [
                 {
@@ -72,6 +84,12 @@
                     "src": "https://picsum.photos/1200/500",
                     "alt": "a photo 2 "
                 },
+                {
+                    "src": "https://picsum.photos/1200/500",
+                    "alt": "a photo 3"
+                }
+            ],
+            "main_image": [
                 {
                     "src": "https://picsum.photos/1200/500",
                     "alt": "a photo 3"
@@ -87,7 +105,7 @@
                 "HTML",
                 "CSS"
             ],
-            "live_link": "url",
+            "live_link": "https://icld.github.io/unit4-project-oop-game/",
             "github_link": "https://github.com/icld/unit4-project-oop-game.git",
             "image_urls": [
                 {
@@ -98,6 +116,12 @@
                     "src": "https://picsum.photos/1200/500",
                     "alt": "a photo 2 "
                 },
+                {
+                    "src": "https://picsum.photos/1200/500",
+                    "alt": "a photo 3"
+                }
+            ],
+            "main_image": [
                 {
                     "src": "https://picsum.photos/1200/500",
                     "alt": "a photo 3"
@@ -113,7 +137,7 @@
                 "HTML",
                 "CSS"
             ],
-            "live_link": "https://picsum.photos/",
+            "live_link": "https://icld.github.io/publicAPIRequests/",
             "github_link": "https://github.com/icld/publicAPIRequests.git",
             "image_urls": [
                 {
@@ -124,6 +148,12 @@
                     "src": "https://picsum.photos/1200/500",
                     "alt": "a photo 2 "
                 },
+                {
+                    "src": "https://picsum.photos/1200/500",
+                    "alt": "a photo 3"
+                }
+            ],
+            "main_image": [
                 {
                     "src": "https://picsum.photos/1200/500",
                     "alt": "a photo 3"
