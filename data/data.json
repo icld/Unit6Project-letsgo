@@ -67,12 +67,12 @@
                     "alt": "a photo 3"
                 },
                 {
-                    "src": "/static/images/proj2/p2_img5.png",
+                    "src": "/static/images/proj2/p2_img7.png",
                     "alt": "a photo 3"
                 }
             ],
             "main_image": {
-                "src": "/static/images/proj2/p2_img1.png",
+                "src": "/static/images/proj2/p2_img6.png",
                 "alt": "a photo 3"
             }
         },
