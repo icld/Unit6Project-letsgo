@@ -51,10 +51,6 @@
             "github_link": "https://github.com/icld/Project-2-Data-Pagination-and-Filtering.git",
             "image_urls": [
                 {
-                    "src": "/static/images/proj2/p2_img1.png",
-                    "alt": "a photo 1"
-                },
-                {
                     "src": "/static/images/proj2/p2_img2.png",
                     "alt": "a photo 2 "
                 },
@@ -67,12 +63,12 @@
                     "alt": "a photo 3"
                 },
                 {
-                    "src": "/static/images/proj2/p2_img7.png",
+                    "src": "/static/images/proj2/p2_img6.png",
                     "alt": "a photo 3"
                 }
             ],
             "main_image": {
-                "src": "/static/images/proj2/p2_img6.png",
+                "src": "/static/images/proj2/p2_img7.png",
                 "alt": "a photo 3"
             }
         },
@@ -97,7 +93,15 @@
                     "alt": "a photo 2 "
                 },
                 {
-                    "src": "/static/images/proj3/p3_img3.png",
+                    "src": "/static/images/proj3/p3_img4.png",
+                    "alt": "a photo 3"
+                },
+                {
+                    "src": "/static/images/proj3/p3_img7.png",
+                    "alt": "a photo 3"
+                },
+                {
+                    "src": "/static/images/proj3/p3_img8.png",
                     "alt": "a photo 3"
                 }
             ],
@@ -129,10 +133,18 @@
                 {
                     "src": "/static/images/proj4/p4_img3.png",
                     "alt": "a photo 3"
+                },
+                {
+                    "src": "/static/images/proj4/p4_img4.png",
+                    "alt": "a photo 3"
+                },
+                {
+                    "src": "/static/images/proj4/p4_img5.png",
+                    "alt": "a photo 3"
                 }
             ],
             "main_image": {
-                "src": "/static/images/proj4/p4_img2.png",
+                "src": "/static/images/proj4/p4_img6.png",
                 "alt": "a photo 3"
             }
         },
@@ -170,7 +182,7 @@
                 }
             ],
             "main_image": {
-                "src": "/static/images/proj5/p5_img1.png",
+                "src": "/static/images/proj5/p5_img6.png",
                 "alt": "a photo 3"
             }
         }
