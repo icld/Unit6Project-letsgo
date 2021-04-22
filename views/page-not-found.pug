@@ -2,12 +2,13 @@ extends layout.pug
 
 block content
     nav.nav
-        a(href='/')
+        a(href='/' class='backBtn')
             span &larr;
             |  Back
-
+        h1= message 
+        h2  error status  #{error} 
     nav.nav
-        a(href='/')
+        a(href='/' class='backBtn')
             span &larr;
             |  Back
 

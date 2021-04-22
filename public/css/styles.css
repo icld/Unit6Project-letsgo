@@ -1,13 +1,16 @@
-
 /*
   Main styles
 */
+
+:root {
+  --creamColor: #fffadd
+}
+
 * {
   box-sizing: border-box;
 }
 
-html,
-body {
+html, body {
   font-size: 100%;
   width: 100%;
   min-width: 100%;
@@ -31,25 +34,25 @@ article {
   background: #fefefe;
 }
 
-h1,h2,h3,h4,h5,p{
+h1, h2, h3, h4, h5, p {
   font-family: 'Merriweather', serif;
 }
 
-h5{
+h5 {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   letter-spacing: 2.5px;
   -webkit-text-transform: uppercase;
   text-transform: uppercase;
 }
 
-h6{
+h6 {
   letter-spacing: 2.5px;
   -webkit-text-transform: uppercase;
   text-transform: uppercase;
   font-weight: 600;
 }
 
-p{
+p {
   font-size: 15px;
   color: #666;
 }
@@ -86,8 +89,7 @@ a {
   border-bottom: 1px solid #eaeaea;
 }
 
-.box h1,
-.box h6 {
+.box h1, .box h6 {
   margin: 0 auto 8px;
 }
 
@@ -101,10 +103,10 @@ a {
   font-size: 13px;
 }
 
-
 /*
   Sidebar and mobile header
 */
+
 nav {
   width: 100%;
   padding: 20px;
@@ -119,7 +121,7 @@ nav a {
   font-size: 13px;
   letter-spacing: 2.5px;
   text-transform: uppercase;
-  color: #555; 
+  color: #555;
 }
 
 nav a span {
@@ -218,10 +220,10 @@ nav a span {
   background: #fefefe;
 }
 
-
 /*
   Home page styles
 */
+
 .portfolio-intro {
   max-width: 1200px;
   padding: 40px 50px 30px;
@@ -247,7 +249,8 @@ nav a span {
   font-size: 13px;
   letter-spacing: 2.25px;
   text-transform: uppercase;
-  color: #222;;
+  color: #222;
+  ;
   margin: 0 auto 8px;
 }
 
@@ -262,12 +265,11 @@ nav a span {
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
 }
 
-
 /* 
   About and project pages styles 
 */
-.about-intro-box p,
-.project-info-box p {
+
+.about-intro-box p, .project-info-box p {
   font-size: 125%;
 }
 
@@ -300,23 +302,20 @@ nav a span {
   border: 1px solid transparent;
 }
 
-
 /* 
   Tablet layout styles 
 */
+
 @media screen and (min-width: 768px) {
   .sidebar h5 {
     font-size: 1.25rem;
   }
-
   .portfolio-intro h1 {
     font-size: 3rem;
   }
-
   .box {
     border-bottom: none;
   }
-
   .two-col .box:nth-of-type(1) {
     width: 70%;
     padding-right: 15px;
@@ -326,39 +325,112 @@ nav a span {
     padding-top: 50px;
     padding-left: 15px;
   }
-
   .cell {
     margin: 0 0 15px;
   }
-
   .cell h5 {
     font-size: 1.25rem;
   }
-
   .grid {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   }
 }
 
-
 /* 
   Desktop layout styles 
 */
+
 @media screen and (min-width: 1024px) {
   .sidebar {
     left: 0;
   }
-
   .header {
     display: none;
   }
-
   .wrapper {
     margin-left: 300px;
     width: calc(100% - 300px);
   }
-
   .inner-wrapper {
     max-width: 1200px;
   }
+}
+
+body {
+  background: var(--creamColor);
+}
+
+/* .thumbnail {
+  box-shadow: 2px 2px gray;
+} */
+
+.spanJump {
+  color: var(--creamColor);
+  cursor: pointer;
+  text-shadow: 10px 10px 5px crimson;
+  transition: all .05s ease;
+}
+
+.changIt {
+  color: crimson;
+  cursor: pointer;
+  text-shadow: 10px 10px 5px var(--creamColor)
+}
+
+.wrapper {
+  background: var(--creamColor)
+}
+
+.portfolio-projects {
+  background: var(--creamColor)
+}
+
+.box, nav, .portfolio-intro {
+  background: #333
+}
+
+h1, h6, li, p {
+  color: var(--creamColor)
+}
+
+.btn-link {
+  background: var(--creamColor);
+  color: #333
+}
+
+nav :hover {
+  color: var(--creamColor);
+  transition: All .5s ease;
+}
+
+.cell h5 {
+  color: var(--creamColor);
+  text-shadow: tomato 1px 0 10px
+}
+
+.header {
+  color: var(--creamColor)
+}
+
+.sidebar {
+  background: var(--creamColor);
+}
+
+.dev-intro-box h5 {
+  color: #333;
+  text-shadow: tomato 1px 0 10px
+}
+
+.cell img {
+  border: .1px .1px solid var(--creamColor);
+  filter: brightness(0.5);
+  transition: All .5s ease
+}
+
+.thumbnail-box .thumbnail {
+  border: none
+}
+
+.cell img:hover {
+  filter: brightness(1)
 }

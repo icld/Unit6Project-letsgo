@@ -5,7 +5,7 @@ block content
   article.portfolio-intro
 
     //- Replace with your own heading like 'My Portfolio', or 'Hey, Potential Employers', or 'Let's make the web great together!' 
-    h1 My Portfolio
+    h1(class='myPort') My Portfolio
 
     //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
     p This portfolio is intended to showcase the work that I have done in my Full Stack JavaScript Techdegree.
@@ -14,7 +14,7 @@ block content
   article.portfolio-project-thumbs
     .projects-box.box.grid
       each project in projects 
-        .cell
+        .cell 
           a(href=`projects/${project.id}`)
             img.thumbnail(src=`${project.main_image.src}`, alt=`${project.main_image.alt}`)
           h5= project.project_name
