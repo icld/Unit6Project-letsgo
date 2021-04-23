@@ -13,26 +13,60 @@ document.querySelector('#menu-icon').addEventListener('click', e => {
 });
 
 // document.querySelector('.sidebar').style.background = '#427f97'
+if (document.querySelector('.myPort')) {
+  const wordToAnimate = document.querySelector('.myPort')
+  animateLetterOver(wordToAnimate)
+}
 
-const h1ToChange = document.querySelector('.myPort')
+if (document.querySelector('.project-title')) {
+  const wordToAnimate = document.querySelector('.project-title')
+  animateLetterOver(wordToAnimate)
+}
 
-h1ToChange.innerHTML = h1ToChange.innerText
-  .split('')
-  .map((letter, idx) => `<span class='spanJump'>${letter}</span>`)
-  .join('')
 
-const spans = document.querySelectorAll('.spanJump')
 
-spans.forEach(span => {
-  span.addEventListener('mouseover', e => {
-    span.classList.add('changIt')
-  })
-  span.addEventListener('mouseleave', e => {
-    setTimeout(() => span.classList.remove('changIt'), 100)
-  })
-  span.addEventListener('click', e => {
-    spans.forEach(span => {
+function animateLetterOver(wordToAnimate) {
+  wordToAnimate.innerHTML = wordToAnimate.innerText
+    .split('')
+    .map((letter, idx) => `<span class='spanJump'>${letter}</span>`)
+    .join('')
 
+  const spans = document.querySelectorAll('.spanJump')
+
+  spans.forEach(span => {
+    span.addEventListener('mouseover', e => {
+      span.classList.add('changIt')
+    })
+    span.addEventListener('mouseleave', e => {
+      setTimeout(() => span.classList.remove('changIt'), 100)
+    })
+    span.addEventListener('click', e => {
+      spans.forEach(span => {
+      })
     })
   })
-})
+}
+
+
+
+
+
+
+const boxes = document.querySelectorAll('.project-img');
+
+window.addEventListener('scroll', checkBoxes)
+
+checkBoxes()
+
+function checkBoxes() {
+  const triggerBottom = window.innerHeight / 5 * 4
+  boxes.forEach(box => {
+    // box.classList.add('show')
+    const boxTop = box.getBoundingClientRect().top
+    if (boxTop < triggerBottom) {
+      box.classList.add('show')
+    } else {
+      box.classList.remove('show')
+    }
+  })
+}
