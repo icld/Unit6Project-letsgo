@@ -2,7 +2,7 @@
 # unit6-Static Node.js and Express Site
  
 <p align="center"> Authored by Ian Lyles</p>
-<p align="center">Updated on April 18th, 2021</p>
+<p align="center">Updated on April 23rd, 2021</p>
 
 ## Detailed Description
 * Project Overview
