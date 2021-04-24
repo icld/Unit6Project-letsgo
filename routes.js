@@ -7,16 +7,18 @@ const projects = data.projects
 
 
 
-
+//route and render index page
 router.get('/', (req, res) => {
 
     res.render('index', { projects })
 });
 
+//route and render about page
 router.get('/about', (req, res) => {
     res.render('about')
 });
 
+//route and render individual project page
 router.get('/projects/:id', (req, res) => {
     const num = parseFloat(req.params.id)
 
