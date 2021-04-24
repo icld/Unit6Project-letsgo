@@ -18,7 +18,7 @@ app.set('view engine', 'pug');
 app.use((req, res, next) => {
     const err = new Error('Not Found');
     err.status = 404;
-    err.message = "Sorry can't find it"
+    err.message = "Sorry! Can't find what you're lookin' for!"
     next(err);
 });
 
@@ -29,7 +29,6 @@ app.use((err, req, res, next) => {
             error: 404
         });
     } else {
-
         res.render('error', {
             message: err.message,
             error: 500

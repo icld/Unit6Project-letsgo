@@ -3,11 +3,14 @@
         {
             "id": 1,
             "project_name": "A Random Quote Generator",
-            "description": "",
+            "description": "In the project, I created an app that displays a random quote every time a button is clicked.  Style changes, and automatic quote generation were also done using JS",
             "technologies": [
                 "JavaScript",
                 "HTML",
-                "CSS"
+                "CSS",
+                "VS Code",
+                "Git",
+                "GitHub"
             ],
             "live_link": "https://icld.github.io/Project1-Random-Quote-Generator/",
             "github_link": "https://github.com/icld/Project1-Random-Quote-Generator.git",
@@ -41,11 +44,14 @@
         {
             "id": 2,
             "project_name": "Data Pagination And Filtering",
-            "description": "a project 2",
+            "description": "Using Vanilla JavaScript I created a student directory that employs pagination that can display any number of student cards.  Additionally I included dynamic search functionality and created custom error messages.",
             "technologies": [
                 "JavaScript",
                 "HTML",
-                "CSS"
+                "CSS",
+                "VS Code",
+                "Git",
+                "GitHub"
             ],
             "live_link": "https://icld.github.io/Project-2-Data-Pagination-and-Filtering/",
             "github_link": "https://github.com/icld/Project-2-Data-Pagination-and-Filtering.git",
@@ -75,11 +81,15 @@
         {
             "id": 3,
             "project_name": "Interactive Form",
-            "description": "a project 3",
+            "description": "For this project, I used JavaScript to make a standard form more user-friendly, interactive, and accessible.  I added customized and conditional behavior and interactivity while validating user input and providing error messages when the user enters invalid information.",
             "technologies": [
                 "JavaScript",
                 "HTML",
-                "CSS"
+                "Regex",
+                "CSS",
+                "VS Code",
+                "Git",
+                "GitHub"
             ],
             "live_link": "https://icld.github.io/Project-3-Interactive-Form/",
             "github_link": "https://github.com/icld/Project-3-Interactive-Form.git",
@@ -113,11 +123,15 @@
         {
             "id": 4,
             "project_name": "Phrase Hunter Game",
-            "description": "a project 4",
+            "description": "In this project, I created a browser-based, word guessing game.  I used JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase which a player tries to guess by clicking letters on an onscreen keyboard.",
             "technologies": [
                 "JavaScript",
+                "Object-Oriented Programming",
                 "HTML",
-                "CSS"
+                "CSS",
+                "VS Code",
+                "Git",
+                "GitHub"
             ],
             "live_link": "https://icld.github.io/unit4-project-oop-game/",
             "github_link": "https://github.com/icld/unit4-project-oop-game.git",
@@ -151,11 +165,16 @@
         {
             "id": 5,
             "project_name": "Startup Employee Directory",
-            "description": "Public API Requests",
+            "description": "For this project, I built an app for a fictional company.  The app diplays employee contact information in an employee directory",
             "technologies": [
                 "JavaScript",
+                "Fetch and Public APIs",
+                "Postman",
                 "HTML",
-                "CSS"
+                "CSS",
+                "VS Code",
+                "Git",
+                "GitHub"
             ],
             "live_link": "https://icld.github.io/publicAPIRequests/",
             "github_link": "https://github.com/icld/publicAPIRequests.git",
