@@ -6,9 +6,9 @@
 
 ## Detailed Description
 * Project Overview
-So far you've worked with a lot of "client-side" JavaScript. Which is just an industry way of saying JavaScript in the browser. All of the JavaScript you've written for the first five projects in this Techdegree is run right in the browser. Now it's time to continue your journey out of the browser and start writing some powerful "server-side" JavaScript.
+From TechDegree Instructions:
 
-In this project, you'll create a gorgeous portfolio site to showcase the great projects you've built. The site will contain a modern landing page, an about page where you'll have a chance to share contact info, practice your elevator pitch and talk a little about yourself, and a series of project pages to show off and detail at least your first five projects from this Techdegree.
+"In this project, you'll create a gorgeous portfolio site to showcase the great projects you've built. The site will contain a modern landing page, an about page where you'll have a chance to share contact info, practice your elevator pitch and talk a little about yourself, and a series of project pages to show off and detail at least your first five projects from this Techdegree.
 
 You'll create a JSON file to store all the data about the projects you've created.
 
@@ -22,14 +22,25 @@ Set up routes to handle requests
 Set up the middleware to utilize static files like CSS
 Handle errors
 Set up a server to serve the project
-After building this project, you should have a comfortable working knowledge of Node.js, Express and Pug, setting up a server, handling requests, working with server-side JavaScript, and building a powerful and modern back end project. And you'll have an important new skill to make you more marketable as a Full Stack JavaScript Developer.
+After building this project, you should have a comfortable working knowledge of Node.js, Express and Pug, setting up a server, handling requests, working with server-side JavaScript, and building a powerful and modern back end project. And you'll have an important new skill to make you more marketable as a Full Stack JavaScript Developer."
+
+## USING THIS APPLICATION
+- This app uses node.js. If you do not already have node.js installed, visit https://nodejs.org/en/download/ and install.
+- After installing node, navigate to the root directory of the cloned repo in a as Command Prompt or Git Bash.
+- Type in "npm install".
+- To run the application, 'npm start'
+
 
 ## Notes Regarding Exceeds Expectations
-### Style Changes 
+- Style changes in styles.css and script.js
+- Run app using 'npm start'
+- errors render error pages 
+
+<!-- ### Style Changes  -->
 
 
 ## GIT HUB
-- repository location 
+-  Repository: https://github.com/icld/Unit6Project-letsgo.git
 
 ## Support and contact details
 email Ian Lyles @ <ian@icldesign.com>
