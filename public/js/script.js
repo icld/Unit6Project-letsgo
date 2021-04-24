@@ -24,7 +24,7 @@ if (document.querySelector('.project-title')) {
 }
 
 
-
+// animation for headers
 function animateLetterOver(wordToAnimate) {
   wordToAnimate.innerHTML = wordToAnimate.innerText
     .split('')
@@ -51,7 +51,7 @@ function animateLetterOver(wordToAnimate) {
 
 
 
-
+//animation for project photos
 const boxes = document.querySelectorAll('.project-img');
 
 window.addEventListener('scroll', checkBoxes)
