@@ -1,20 +1,19 @@
 const express = require('express');
 const { render } = require('pug');
 const app = express()
-// const path = require('path')
 
+// makes routes available from routes.js
 const mainRoutes = require('./routes')
-// const errorHandlers = require('./errorHandlers')
-
-
 app.use(mainRoutes)
 
-app.use('/static', express.static('public'));
 
+// static route to serve static files from public folder
+app.use('/static', express.static('public'));
+//sets the view engine to pug
 app.set('view engine', 'pug');
 
 
-
+// 404 error 
 app.use((req, res, next) => {
     const err = new Error('Not Found');
     err.status = 404;
@@ -22,6 +21,7 @@ app.use((req, res, next) => {
     next(err);
 });
 
+// global error 
 app.use((err, req, res, next) => {
     if (res.status(404)) {
         res.render('page-not-found', {
@@ -37,8 +37,7 @@ app.use((err, req, res, next) => {
 
 });
 
-
-
+//sets localhost port 
 app.listen(3000, () => {
     console.log('The application is running on localhost:3000!')
 });
