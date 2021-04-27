@@ -12,29 +12,19 @@ app.use('/static', express.static('public'));
 //sets the view engine to pug
 app.set('view engine', 'pug');
 
-
 // 404 error 
 app.use((req, res, next) => {
-    const err = new Error('Not Found');
+    const err = new Error('Sorry We could not find your page!');
     err.status = 404;
-    err.message = "Sorry! Can't find what you're lookin' for!"
-    next(err);
+    res.status(404).render('page-not-found', { error: err })
+    next(err)
 });
 
 // global error 
 app.use((err, req, res, next) => {
-    if (res.status(404)) {
-        res.render('page-not-found', {
-            message: err.message,
-            error: 404
-        });
-    } else {
-        res.render('error', {
-            message: err.message,
-            error: 500
-        });
-    }
-
+    err.message = "Something failed!!"
+    err.status = 500
+    res.status(500).render('error', { error: err })
 });
 
 //sets localhost port 

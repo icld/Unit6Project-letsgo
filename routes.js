@@ -9,7 +9,6 @@ const projects = data.projects
 
 //route and render index page
 router.get('/', (req, res) => {
-
     res.render('index', { projects })
 });
 

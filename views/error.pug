@@ -6,7 +6,8 @@ block content
             span &larr;
             |  Back
 
-        h1= message 
+        h1= error.message
+        h2 status code #{error.status} 
 
     nav.nav
         a(href='/' class='backBtn') 
