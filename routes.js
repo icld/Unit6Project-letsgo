@@ -19,16 +19,12 @@ router.get('/about', (req, res) => {
 
 //route and render individual project page
 router.get('/projects/:id', (req, res) => {
-    const num = parseFloat(req.params.id)
+    const num = parseFloat(req.params.id);
 
-    const project = data.projects.find(proj => proj.id === num)
-    if (project) {
+    const project = data.projects.find(proj => proj.id === num);
 
-        console.log(project)
-        res.render('project', { project })
-    } else {
-        res.redirect('/page-not-found')
-    }
+    res.render('project', { project })
+
 });
 
 
