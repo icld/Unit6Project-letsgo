@@ -36,7 +36,18 @@ After building this project, you should have a comfortable working knowledge of 
 - Run app using 'npm start'
 - errors render error pages 
 
-<!-- ### Style Changes  -->
+### Style Changes 
+- Style changes occur in styles.css beginning at line 366.  
+  - Header hover effect
+    - Using JS, I split the letters of a string into an array of letters, then map them each to hav a span tag, then rejoin them back into a string.  Then I added mouseover and mouseleave event listeners to each span to add and remove classes to create an individual letter hover effect.     
+  - Alternating Sliding Images
+    - Within the project pages, I changed the classes to alternate the translateX of the images so they would be start off the visible page.   Then I have an event listener on the 'scroll' of the window and pass it a funciton that changes the classes of the images if their bounding box top crosses a point relative to the innerheight of the window object.  Once this happens, the image slides into the center by changing tranformX to 0.  
+  - Buttons styling
+    - I added a button styling that I created in styles.css which are changed with :hover.  
+  - General CSS styling
+    - Color and font styling was changed.  
+    - Hover effects over project links were changed to further highlight the focused project.  
+    - Text shadows and box shadows added. 
 
 
 ## GIT HUB

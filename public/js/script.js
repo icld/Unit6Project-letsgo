@@ -12,7 +12,7 @@ document.querySelector('#menu-icon').addEventListener('click', e => {
   return headerBtnClicked = !headerBtnClicked;
 });
 
-// document.querySelector('.sidebar').style.background = '#427f97'
+
 if (document.querySelector('.myPort')) {
   const wordToAnimate = document.querySelector('.myPort')
   animateLetterOver(wordToAnimate)
